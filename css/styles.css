@@ -1,0 +1,1175 @@
+.container{
+	padding: 0px 3rem;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Playfair Display', serif;
+}
+/*<i class="fa fa-facebook" aria-hidden="true"></i>*/
+/*<i class="fa fa-twitter" aria-hidden="true"></i>*/
+/*<i class="fa fa-linkedin" aria-hidden="true"></i>*/
+/*<i class="fa fa-instagram" aria-hidden="true"></i>*/
+/*<i class="fa fa-pinterest-p" aria-hidden="true"></i>*/
+/*<i class="fa fa-shopping-cart" aria-hidden="true"></i>*/
+/*<i class="fa fa-search" aria-hidden="true"></i>*/
+/*<i class="fa fa-gratipay" aria-hidden="true"></i>*/
+/*=====FONT-FAMILY=====*/
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Playfair Display', serif;*/
+
+:root{
+  --blood: #E11515;
+  --dark: #292929;
+  --gren: #83A931;
+  --light: #E6E9EE;
+}
+/*START HEADER*/
+/*NAVIGATIONS*/
+header{
+	padding-top: 30px;
+}
+header > nav{
+	color: var(--dark);
+}
+header > nav > div{
+	display: flex;
+	justify-content: space-between;
+}
+header .homelink{
+	color: var(--blood);
+}
+header > nav > div a{
+	text-decoration: none;
+	color: var(--dark);
+	padding-right: 55px;
+	font-weight: bolder;
+}
+header > nav > div a:hover{
+	color: var(--blood);
+	transition: all .5s ease-in;
+}
+nav div div i{
+	padding-right: 35px;
+	transition: all .5s ease-in;
+}
+nav div div i:hover{
+	color: var(--blood);
+}
+header nav .home{
+	padding-bottom: 20px;
+}
+header nav .home a{
+	font-size: 12px;
+}
+header nav .home div{
+	padding-top: 20px;
+}
+header nav .links{
+	/*position: fixed;*/
+	padding-top: 20px;
+}
+header nav .links a{
+	font-size: 14px;
+}
+/*END HEADER*/
+/*HERO SECTION*/
+header section{
+	color: white;
+	text-align: center;
+}
+header section #slide1{
+	background-image: url('../images/hero/slide1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 100px;
+	/*width: 1920px*/
+}
+header section h2{
+	font-size: 50px;
+	padding-top: 100px;
+}
+header section h1{
+	font-size: 90px;
+	margin-top: -45px;
+}
+header section p{
+	padding: 0 7rem;
+	font-size: 18px;
+	margin-top: -65px;
+	letter-spacing: 1px;
+	padding-bottom: 30px;
+	line-height: 30px;
+}
+header section a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 30px; 
+	border: 2px solid white;
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+header section a:hover{
+	background-color: white;
+	color: var(--dark);
+	transition: all 1s ease-in;
+}
+/*header section #slide2{
+	background-image: url('../images/hero/slide2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 100px;
+	width: 1920px
+}
+.sliderwrapper{
+	margin: 0px;
+	padding-bottom: 50px;
+	height: auto;
+	display: block;
+  	overflow-x: hidden;
+}
+.slidewrapper div{
+	flex: 1 0 100%;
+}*/
+/* ==START MAIN SECTION ==*/
+/*=====BANNER SECTION======*/
+main .banner{
+	padding-top: 7rem;
+	padding-left: 0px;
+	padding-right: 0px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap
+}
+.banner .gifts{
+	background-image: url("../images/banner/1.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.banner .offers{
+	background-image: url("../images/banner/2.jpg");
+	background-repeat: no-repeat;	
+	background-size: contain;
+}
+.gifts, .offers{
+	width: 600px;
+	height: 400px;
+}
+.gifts h3{
+	font-size: 40px;
+	max-width: auto;
+	color: white;
+	padding-top: 50px;
+}
+.gifts h2{
+	font-size: 50px;
+	color: white;
+	margin-top: -40px;
+}
+.gifts a{
+	text-decoration: none;
+	border: 2px solid white;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	padding: 6px 25px;
+	border-radius: 10px;
+	/*margin-top: -10px;*/
+}
+.gifts a:hover{
+	background-color: white;
+	color: #4F1B11;
+	transition: all 1s ease-in;
+}
+.gifts div{
+	padding-left: 275px;
+}
+.offers h3{
+	font-size: 40px;
+	color: var(--dark);
+	padding-top: 50px;
+}
+.offers h2{
+	font-size: 50px;
+	color: var(--dark);
+	margin-top: -40px;
+	/*margin-bottom: px;*/
+}
+.offers a{
+	text-decoration: none;
+	border-bottom: 2px solid var(--blood);
+	font-size: 20px;
+	font-weight: bold;
+	color: var(--blood);
+	padding: 6px 0px;
+	/*border-radius: 10px;*/
+}
+.offers a:hover{
+	opacity: 100%;
+	border: 2px solid var(--blood);
+	border-radius: 5px;
+	padding:3px 3px;
+	transition: all 1s ease-in;
+}
+.offers span{
+	color: var(--blood);
+}
+.offers div{
+	padding-left: 45px;
+}
+/*=====STOP BANNER SECTION=======*/
+
+/*======START FEATURED PRODUCT======*/
+.productflex{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.featuredproducts .heading{
+	margin-top: 50px;
+	align-content: center;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.featuredproducts h2{
+	padding: 20px;
+	background-image: url("../images/section-title-bg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 36px;
+	color: var(--dark);
+	padding-bottom: 20px;
+	text-align: center;
+}
+/*====PRODUCT====*/
+.featuredproducts .cart{
+	width: 380px;
+	height: auto;
+	padding-bottom: 60px;
+}
+.featuredproducts div.fav{
+	background-image: url("../images/product/1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border-radius: 10px;
+}
+.featuredproducts div span{
+	color: var(--gren);
+	text-decoration: underline;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+.featuredproducts div i{
+	font-size: 40px;
+}
+.featuredproducts div i:hover{
+	cursor: pointer;
+}
+.featuredproducts div i:active{
+	color: var(--gren);
+}
+.featuredproducts div.productname{
+	display: flex;
+	justify-content: space-between;
+}
+.featuredproducts div.productname p{
+	margin-top: -20px;
+	margin-bottom: 30px;
+}
+.featuredproducts div.productname a{
+	text-decoration: none;
+	background-color: var(--dark);
+	color: white;
+	font-size: 14px;
+	/*font-weight: bold;*/
+	padding: 10px 20px;
+	border-radius: 6px;
+}
+.featuredproducts div.productname a:active{
+	background-color: var(--gren);
+	color: white;
+	font-weight: bold;
+}
+.featuredproducts div.fav2{
+	background-image: url("../images/product/2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border-radius: 10px;
+}
+.featuredproducts div.fav3{
+	background-image: url("../images/product/3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border-radius: 10px;
+}
+.featuredproducts div.fav4{
+	background-image: url("../images/product/4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border-radius: 10px;
+}
+.featuredproducts div.fav5{
+	background-image: url("../images/product/5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border-radius: 10px;
+}
+.featuredproducts div.fav6{
+	background-image: url("../images/product/6.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border-radius: 10px;
+}
+.featuredproducts{
+	padding-bottom: 50px;
+}
+/*======END FEATURED PRODUCT======*/
+/*======CUSTOMER REVEIWS*/
+.reviews{
+	margin: -3rem;
+	background-color: #E6E9EE;
+	background-image: url(../images/bg/testimonial.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.reviews h2{
+	padding: 20px;
+	background-image: url("../images/section-title-bg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 36px;
+	color: var(--dark);
+	padding-bottom: 30px;
+	text-align: center;
+}
+.reviews img{
+	border-radius: 50%;
+}
+.reviews div p{
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-style: italic;
+	padding: 0px 25rem;
+	line-height: 30px;
+	color: var(--dark);
+	padding-bottom: 20px;
+}
+/*======END CUSTOMER REVEIWS*/
+/*START NEWSLETTER*/
+.newsletter{
+	padding-top: 100px;
+	text-align: center;
+	padding-bottom: 120px;
+}
+.newsletter h2{
+	padding: 20px;
+	background-image: url("../images/section-title-bg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 36px;
+	color: var(--dark);
+	padding-bottom: 10px;
+	text-align: center;
+}
+.newsletter p{
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	padding: 0px 15rem;
+	line-height: 25px;
+	color: var(--dark);
+	padding-bottom: 40px;
+}
+.newsletter input{
+	padding: 11px;
+	margin-right: -6px;
+	border: 1px solid var(--light)
+}
+.newsletter .submit{
+	background-color: var(--gren);
+	color: white;
+	font-weight: bold;
+	border: none;
+	padding: 12px;
+}
+.newsletter .submit:active{
+	background-color: var(--light);
+	color: var(--gren);
+	border: 1px solid var(--gren);
+}
+/*END NEWSLETTER*/
+/*START CHRISTMAS BLOG*/
+.christmasblog{
+	margin: -3rem;
+	background-color: var(--light);
+	padding: 50px 3rem;
+	padding-bottom: 150px;
+}
+.christmasblog h2{
+	padding: 20px;
+	background-image: url("../images/section-title-bg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 36px;
+	color: var(--dark);
+	text-align: center;
+}
+.christmasblog .posts{
+	padding-top: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 2em;
+}
+.christmasblog div{
+	max-width: 120em;
+}
+.christmasblog div img{
+	width: 100%;
+}
+.christmasblog img+p{
+	padding-bottom: 10px;
+	font-weight: bold;
+} 
+.christmasblog span{
+	font-weight: lighter;
+	color: var(--dark);
+}
+.christmasblog h3{
+	margin-top: -15px;
+	font-size: 25px;
+}
+.christmasblog article{
+	margin-top: -15px;
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	line-height: 30px;
+	color: var(--dark);
+	padding-bottom: 15px;
+	text-align: justify;
+}
+.christmasblog a{
+	color: var(--gren);
+	font-weight: bold;
+	/*text-decoration: none;*/
+}
+.christmasblog a:hover{
+	background-color: var(--gren);
+	color: var(--light);
+}
+/*END CHRISTMAS BLOG*/
+/* ==END MAIN SECTION ==*/
+/*===FOOTER=====*/
+footer{
+	background-color: var(--dark);
+	color: var(--light);
+	padding: 60px 3rem;
+	background-image: url('../images/bg/footer-bg.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+	padding-bottom: 20px;
+}
+.foot{
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 2fr;
+	grid-column-gap: 20px;
+	padding-bottom: 50px;
+}
+.foot h2{
+	color: white;
+}
+.foot p{
+	line-height: 25px;
+}
+.foot ul>li{
+	list-style-type: none;
+	text-align: left;
+	line-height: 2rem;
+}
+.foot a{
+	text-decoration: none;
+	color: var(--light);
+	font-weight: bold;
+}
+.foot li a:hover{
+	font-weight: bold;
+	color: var(--gren);
+	padding-left: 10px;
+}
+.foot span{
+	font-weight: bold;
+	color: white;
+}
+footer hr+p{
+	padding-top: 20px;
+	text-align: center;
+	font-weight: bold;
+	color: var(--gren);
+}
+/*======================
+======================
+------MEDIA QUERY------
+======================
+======================*/
+@media screen and (max-width: 1277px) {
+/* HEADER */
+	header > nav > div a{
+		padding-right: 40px;
+	}
+/*BANNER*/
+	.gifts, .offers{
+		width: 550px;
+		height: 400px;
+	}
+	.gifts h3, .offers h3{
+		padding-top: 20px;
+		text-shadow: 0px 0px 1px black;
+	}
+}
+/*======================================*/
+@media screen and (max-width: 1024px){
+	/*HEADER*/
+	header > nav > div a{
+		padding-right: 30px;
+	}
+	/*BANNER*/
+	.gifts, .offers{
+		width: 450px;
+		height: 350px;
+	}
+	.banner h3{
+		font-size: 40px;
+		max-width: auto;
+		padding-top: 10px;
+	}
+	.banner h2{
+		font-size: 40px;
+		margin-top: -40px;
+	}
+	.gifts div{
+		padding-left: 225px;
+	}
+	/*FEATURED PRODUCTS*/
+	.featuredproducts .cart{
+		width: 280px;
+		height: auto;
+		padding-bottom: 60px;
+	}
+	.featuredproducts div.fav, .featuredproducts div.fav2, .featuredproducts div.fav3, .featuredproducts div.fav4, .featuredproducts div.fav5, .featuredproducts div.fav6{
+		height: 300px;
+		width: auto;
+	}
+	/*REVIEWS*/
+	.reviews div p{
+		padding: 0px 10rem;
+	}
+	.newsletter p{
+		padding: 0px 10rem;
+	}
+}
+/*=====================================*/
+@media screen and (max-width: 768px){
+	header > nav > div a{
+		padding-right: 10px;
+		font-size: 10px;
+	}
+	header nav .links a{
+    	font-size: 12px;
+	}
+	nav div div i {
+    	padding-right: 25px;
+	}
+	header section h1 {
+    	font-size: 75px;
+	}
+	header section p {
+	    padding: 0 3rem;
+	    padding-bottom: 30px;
+	}
+	header section #slide1 {
+		padding-bottom: 70px;
+	}
+	/*BANNER*/
+	.gifts, .offers{
+		width: 350px;
+		height: 260px;
+	}
+	.banner h3{
+		font-size: 25px;
+		max-width: auto;
+		/*padding-top: 10px;*/
+	}
+	.banner h2{
+		font-size: 35px;
+		padding-top: 15px;
+		margin-bottom: 10px;
+	}
+	.gifts div{
+		padding-left: 150px;
+	}
+	.gifts a, .offers a {
+	    font-size: 12px;
+	    padding: 4px 11px;
+	    border-radius: 5px;
+	    /*margin-top: -100px; */
+	}
+	.offers div{
+		padding-left: 20px;
+	}
+	main .banner{
+		padding-top: 4rem;
+	}
+	.banner .offers h2{
+		text-shadow: 0px 0px 4px white;
+	}
+	.gifts, .offers {
+    	height: 220px
+	}
+	/*FEATURED PRODUCT*/
+	.container{
+		padding: 0px 20px 
+	}
+	.featuredproducts h2{
+		margin-bottom: 2rem;
+	}
+	.featuredproducts .cart{
+		width: 225px;
+	}
+	.featuredproducts div i{
+		font-size: 30px;
+	}
+	.featuredproducts div.fav, .featuredproducts div.fav2, .featuredproducts div.fav3, .featuredproducts div.fav4, .featuredproducts div.fav5, .featuredproducts div.fav6{
+		height: 220px;
+	}
+	/*REVIEWS*/
+	.reviews {
+    	margin: -20px;
+    	padding-top: 0px;
+    	padding-bottom: 5px;
+    }
+    .reviews h2{
+    	margin: 0px;
+    }
+    .reviews div p{
+    	padding: 0px 5rem;
+    }
+    .newsletter {
+        padding-top: 10px;
+        text-align: center;
+        padding-bottom: 90px;
+    }
+    .newsletter p{
+        padding: 10px 5rem;
+    }
+    /*BLOG*/
+    .christmasblog {
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 20px 1rem;
+        padding-bottom: 50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .christmasblog h2{
+    	margin: 0px;
+    }
+    .christmasblog .posts {
+    	padding-top: 20px;
+    }
+    .christmasblog h3{
+    	font-size: 20px;
+    }
+    .christmasblog article{
+    	font-size: 16px;
+	}
+	footer{
+		padding-top:10px
+	}
+	footer ul{
+		padding-inline-start: 0px;
+	}
+	footer h2 {
+	    font-size: 20px;
+	}
+	footer ul>li {
+		line-height: 1.5rem;
+		font-size: 14px;
+		font-weight: lighter;
+	}
+	footer p{
+		font-size: 14px;		
+		line-height: 19px;
+	}
+	.foot{
+		padding-bottom: 5px;
+	}
+}	
+@media screen and (max-width: 694px) {
+	/*BANNER*/
+	.gifts, .offers{
+		width: 310px;
+	}
+	.banner h3{
+		font-size: 20px;
+	}
+	.banner h2{
+		font-size: 30px;
+	}
+	/*FEATURED PRODUCT*/
+	.featuredproducts h2{
+		margin-top: 0px;
+	}
+	.featuredproducts .cart{
+		width: 200px;
+	}
+	.featuredproducts div.fav, .featuredproducts div.fav2, .featuredproducts div.fav3, .featuredproducts div.fav4, .featuredproducts div.fav5, .featuredproducts div.fav6{
+		height: 200px;
+	}
+}
+@media screen and (max-width: 600px) {
+	/*HEADER*/
+	header nav .links a, header nav .home a {
+    	font-size: 10px;
+	}
+	header nav .home {
+	    padding-bottom: 5px;
+	}
+	header nav .links {
+	    padding-top: 5px;
+	}
+    nav div div i {
+        padding-right: 7px;
+    }
+    header section h2{
+    	margin-top: 20px;
+    }
+    /*BANNER*/
+    .gifts, .offers{
+		width: 265px;
+	}
+	.gifts div{
+		padding-left: 130px;
+	}
+	.banner h3{
+		font-size: 20px;
+	}
+	.banner h2{
+		font-size: 25px;
+	}
+	/*FEATURED PRODUCTS*/
+	.featuredproducts .cart{
+		width: 170px;
+	}
+	.featuredproducts div.fav, .featuredproducts div.fav2, .featuredproducts div.fav3, .featuredproducts div.fav4, .featuredproducts div.fav5, .featuredproducts div.fav6{
+		padding: 10px;
+		height: 180px;
+	}
+	.featuredproducts div i {
+	    font-size: 25px;
+	}
+	.featuredproducts div span {
+		padding-top: 0px;
+		padding-right: 5px;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.featuredproducts div.productname a{
+		font-size: 12px;
+		padding: 6px 10px;
+		border-radius: 4px;
+	}
+	/*REVIEW*/
+	.reviews div p {
+	    padding: 0px 2rem;
+	}
+	/*NEWSLETTER*/
+	.newsletter p {
+	    padding: 10px 2rem;
+	}
+	/*BLOG*/
+	.christmasblog img+p {
+		font-size: 12px;
+	}
+	.christmasblog h3{
+    	font-size: 16px;
+	}
+	.christmasblog article {
+	    font-size: 12px;
+	    line-height: 18px;
+	}
+}
+@media screen and (max-width: 580px) {
+	.banner{
+		align-content: center;
+	}
+	.gifts, .offers{
+		height: 300px;
+		width: 500px;
+		margin-left: 10px;
+		margin-bottom: 20px;
+	}
+	.gifts div{
+		width: 500px;
+		padding-top: 10px;
+		padding-left: 250px;
+	}
+	.banner h3{
+		font-size: 50px;
+		margin-bottom: 20px;
+	}
+	.banner h2{
+		font-size: 50px;
+		margin-bottom: 20px;
+	}
+}
+/*=============================*/
+@media screen and (max-width: 414px) {
+	/*HEADER*/
+	header nav .home img{
+		width: 75px;
+		height: 40px;
+	}
+	header nav .links a, header nav .home a {
+    	font-size: 9px;
+	}
+	header nav .home {
+	    padding-bottom: 5px;
+	}
+	header nav .links {
+	    padding-top: 5px;
+	}
+    nav div i {
+    	font-size: 12px;
+    }
+    header nav .home div {
+    	padding-top: 10px;
+	}
+	header section h1 {
+	    padding-bottom: 20px;
+	    font-size: 55px;
+	}
+	header section h2 {
+    	font-size: 40px;
+    	padding-top: 40px;
+	}
+	header section p {
+	    font-size: 11px;
+	    padding: 0 1rem;
+	    padding-bottom: 0px;
+	    line-height: 16px;
+	    margin-bottom: 20px;
+	}
+	header section #slide1 {
+    	padding-bottom: 40px;
+	}
+	/*BANNER*/
+   	main .banner{
+   		padding-top: 2rem;
+   	}
+   	.gifts, .offers {
+   	    width: 100%;
+		height: 220px;
+   	    margin-left: 0px;
+   	    margin-bottom: 0px;
+   	}
+   	.banner h3 {
+    	font-size: 25px;
+		margin-bottom: 30px;
+	}
+	.banner h2{
+		font-size: 30px;
+	}
+	.gifts div {
+		padding-top: 20px;
+    	padding-left: 180px;
+		width: 50%
+	}
+	/*REVIEW SECTION*/
+	.reviews h2{
+		background-size: 50px;
+	    font-size: 30px;
+	    padding-bottom: 23px;
+	}
+	.reviews img {
+    	width: 60px;
+    	height: 60px;
+	}
+	.reviews div p {
+	    padding: 0px 1rem;
+	    font-size: 13px;
+	    line-height: 1.3rem;
+	}
+	.reviews h3{
+		font-size: 1rem;
+		margin-top: -9px;
+	}
+	/*NEWSLETTER SECTION*/
+	.newsletter h2{
+		background-size: 50px;
+		font-size: 30px;
+	}
+	.newsletter p {
+    	padding: 10px 1rem;
+    	margin: 0px;
+	}
+	.newsletter p {
+	    padding: 0px 1rem;
+	    font-size: 13px;
+	    margin: 0px;
+	    line-height: 20px;
+	    padding-bottom: 20px;
+	}
+	.newsletter form .email{
+		width: 200px !important;
+	}
+	.newsletter form .submit{
+		padding: 12px 5px;
+		width: 90px !important;
+	}
+	.newsletter{
+		padding-bottom: 40px;
+	}
+	/*CHRISTMAS BLOG*/
+	.christmasblog .posts{
+		padding: 0px 2rem;
+		padding-top: 10px;
+		display: block;
+		text-align: left;
+		/*grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-gap: 20px;*/
+	}
+	.christmasblog div img{
+		height: 150px;
+		width:100%;
+		padding-top: 10px;
+	}
+	.christmasblog h3{
+		font-size: 15px;
+		margin-bottom: 13px;
+	}
+	.christmasblog img+p {
+	    font-size: 12px;
+	    margin-top: 5px;
+	    margin-bottom: 5px;
+	}
+	.christmasblog article{
+		line-height: 14px;
+		padding-bottom: 0px;
+	}
+	.christmasblog a{
+		font-weight: normal;
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+	/*FOOTER SECTION*/
+	footer{
+		padding: 40px 30px;
+	}
+	.foot{
+		display: grid;
+		grid-column-gap: 10px;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: auto auto auto;
+		grid-template-areas:
+		"c1 c1 c2"
+		"c3 c4 c4";
+	}
+	.column1{grid-area: c1;}
+	.column2{grid-area: c2;}
+	.column3{grid-area: c3;}
+	.column4{grid-area: c4;}
+	footer h2 {
+	    font-size: 18px;
+	}
+	.foot ul>li {
+	    line-height: 1.3rem;
+	}
+	footer p{
+		line-height: 18px;
+	}
+	
+	footer{
+	background-image: url('../images/bg/footer-bg.png');
+	background-repeat: no-repeat;
+	background-size: 300px;
+	background-position: right;
+	padding-bottom: 20px;
+	}
+}
+@media screen and (min-width: 315px) and (max-width: 380px) {
+	header{
+		padding-top: 10px;
+	}
+	header nav .home a, header nav .home i{
+	    /*display: none; */
+	    font-size: 6px;
+	    padding-right: 5px;
+	    padding-top: 0px;
+	}
+	header nav .home img{
+		width: 37px;
+		height: 20px;
+		/*margin: -20px;*/
+	}
+	header nav .home div {
+	    padding-top: 0px;
+	    margin-top:-5px;
+	}
+	hr{
+		margin-top: 5px;
+		margin-bottom: 0px;
+	}
+	header nav .home {
+    	padding-bottom: 0px;
+	}
+	header nav .links div a, .links i{
+	    font-size: 6px;
+	    /*margin-top: -10px;*/
+	}
+	header nav .links div{
+	    margin-top: -10px;
+	}
+	header section h2 {
+		margin-top: 5px;
+		font-size: 30px;
+    	padding-top: 20px;
+	}
+	header section h1 {
+	    font-size: 40px;
+	    margin-top: -35px;
+	}
+	header section h1 {
+	    padding-bottom: 29px
+	}
+	header section p {
+	    font-size: 11px;
+	    line-height: 14px;
+	}
+	header section a {
+	    padding: 5px 15px;
+	    border-radius: 5px;
+	    font-size: 12px;
+	}
+	/*BANNER SECTION*/
+	.gifts div {
+	    padding-top: 5px;
+	    padding-left: 130px;
+	}
+	.banner h3 {
+	    font-size: 20px;
+	    padding-top: 0px;
+	    margin-bottom: 25px;
+	    margin-top: 15px
+	}
+	.banner h2 {
+	    font-size: 25px;
+	}
+	.gifts, .offers{
+		height: 150px;
+	}
+	/*FEATURED PRODUCTS*/
+	.featuredproducts h2 {
+    	font-size: 25px;
+    	background-size: 40px;
+    	margin-bottom: 10px;
+	}
+	.featuredproducts .cart{
+		width: 120px;
+	}
+	.featuredproducts div i{
+		font-size: 20px;
+	}
+	.featuredproducts div.fav, .featuredproducts div.fav2, .featuredproducts div.fav3, .featuredproducts div.fav4, .featuredproducts div.fav5, .featuredproducts div.fav6{
+		height: 130px;
+	}
+	.featuredproducts h4, .featuredproducts h3{
+		padding: 5px;
+    	margin-top: 0px;
+    	font-size: 11px;
+	}
+	.featuredproducts div.productname p {
+	    margin-top: -20px;
+	    font-size: 10px;
+	    padding-left: 5px;
+	    margin-bottom: 5px;
+	}
+	.featuredproducts div.productname a {
+	    font-size: 10px;
+	}
+	.featuredproducts .cart {
+	    padding-bottom: 20px;
+	}
+	/*REVIEW*/
+	.reviews h2 {
+	    font-size: 25px;
+	    background-size: 40px;
+	}
+	.reviews div p {
+	    font-size: 12px;
+	}
+	/*NEWSLETTER*/
+	.newsletter h2 {
+	    font-size: 25px;
+	    background-size: 40px;
+	}
+	.newsletter div p {
+	    font-size: 12px;
+	}
+	/* CHRISTMASBLOG */
+	.christmasblog  h2 {
+	    font-size: 25px;
+	    background-size: 40px;
+	}
+	/*FOOTER SECTION*/
+	footer{
+		padding-top:20px;
+	}
+	.foot img{
+		height: 40px;
+		width: 75px;
+	}
+	.foot h2{
+		margin-top: 0px;
+	}
+	.foot p {
+	    line-height: 19px;
+	    font-size: 12px;
+	}
+	.foot ul>li {
+	    line-height: 1rem;
+	    font-size: 12px;
+	}
+	footer hr+p {
+    	padding-top: 0px;
+    	margin-top: 5px;
+	}
+}
